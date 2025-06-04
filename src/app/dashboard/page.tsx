@@ -1,5 +1,5 @@
 "use client";
-import { useState, useEffect, useMemo, FC, ReactNode } from "react";
+import { useState, useEffect, useMemo } from "react";
 import { useRouter } from "next/navigation";
 import { io, Socket } from "socket.io-client";
 
